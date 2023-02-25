@@ -4,7 +4,7 @@
 
 import * as React from 'react'
 
-function useLocalStorageState(
+export function useLocalStorageState(
   key,
   defaultValue = '',
   // the = {} fixes the error we would get from destructuring when no argument was passed

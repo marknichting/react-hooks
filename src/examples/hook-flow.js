@@ -65,7 +65,7 @@ function App() {
 
   const [showChild, setShowChild] = React.useState(() => {
     console.log('%cApp: useState(() => false)', 'color: tomato')
-    return false
+    return true
   })
 
   React.useEffect(() => {
